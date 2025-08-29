@@ -1,0 +1,30 @@
+   91  nano project1.sh
+   92  bash project1.sh
+   93  mkdir Marvellous
+   94  ls
+   95  mkdir biocomputing && cd biocomputing
+   96  wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.fna
+   97  wget https://raw.githubusercontent.com/josoga2/dataset-repos/main/wildtype.gbk
+   98  mv wildtype.fna ../Marvellous/
+   99  ls
+  100  rm wildtype.gbk.1
+  101  grep -i "tatatata" ../Marvellous/wildtype.fna
+  102  grep -i "tatatata" ../Marvellous/wildtype.fna > mutant_sequences.txt
+  103  ls
+  104  cat mutant_sequences.txt
+  105  grep -i "tatatata" ../Marvellous/wildtype.fna > mutant_sequences.txt
+  106  cat mutant_sequences.txt
+  107  ls
+  108  tail -n +2 wildtype.gbk | wc -l
+  109  head -n 1 wildtype.gbk
+  110  ls -lh
+  111  head -n 1 wildtype.gbk
+  112  grep "SOURCE" wildtype.gbk
+  113  grep "/gene=" wildtype.gbk
+  114  clear
+  115  history
+  116  ls ~/Marvellous
+  117  ls ~/biocomputing
+  118  ls ~/Marvellous
+  119  ls ~/biocomputing
+  120  ls
